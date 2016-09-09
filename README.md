@@ -14,7 +14,7 @@ Installation
 
    ```$ luarocks install turbo-telegram```
 
-2. You're ready for start your huge project!
+2. You're ready to start your huge project!
 
 Hello-World.lua
 -----------
