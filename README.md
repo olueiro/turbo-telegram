@@ -7,7 +7,7 @@ Hello World
 
 ```lua
 _G.TURBO_SSL = true
-local turbo = require("turbo)
+local turbo = require("turbo")
 local telegram = require("turbo-telegram")
 
 local my_bot = telegram("YOUR-TOKEN-HERE")
