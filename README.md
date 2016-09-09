@@ -16,7 +16,7 @@ Installation
 
 2. You're ready for start your huge project!
 
-Hello World
+Hello-World.lua
 -----------
 
 ```lua
