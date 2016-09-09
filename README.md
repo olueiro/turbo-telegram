@@ -2,10 +2,10 @@ turbo-telegram
 ==============
 Fully-featured Telegram Bot API for [Turbo.lua](http://turbo.readthedocs.io)
 
-Requisites
-----------
+Requirements
+------------
 
-1. Install `luarocks`. Instructions [here](https://luarocks.org/#quick-start).
+1. `luarocks`. Installation instructions [here](https://luarocks.org/#quick-start).
 
 Installation
 ------------
