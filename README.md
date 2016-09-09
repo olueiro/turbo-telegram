@@ -2,11 +2,24 @@ turbo-telegram
 ==============
 Fully-featured Telegram Bot API for [Turbo.lua](http://turbo.readthedocs.io)
 
+Requisites
+----------
+
+1. Install `luarocks`. Instructions [here](https://luarocks.org/#quick-start).
+
+Installation
+------------
+
+1. Install `turbo-telegram` via `luarocks`
+
+   ```$ luarocks install turbo-telegram```
+
+2. You're ready for start your huge project!
+
 Hello World
 -----------
 
 ```lua
-_G.TURBO_SSL = true
 local turbo = require("turbo")
 local telegram = require("turbo-telegram")
 
@@ -22,3 +35,17 @@ end)
 turbo.ioloop.instance():start()
 ```
 
+Features
+--------
+
+* Fast
+* Easy to implement
+* Fast
+* Supports inline buttons
+* Fast
+* Supports webhooks
+* Fast
+* Uses LuaJIT (thanks to Turbo)
+* Fast
+* Debug-friendly
+* Fast...
