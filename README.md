@@ -61,4 +61,4 @@ Methods
 
 `bot:say(command, parameters[, callback])` Send a message or media to bot. Check [Available methods](https://core.telegram.org/bots/api#available-methods) to view all supported `command`s and yours `parameters`. Pass a function or a table (with success or failure keys) to `callback`, the result will pass as first argument.
 
-`bot:file(filepath[, filename[, mime_type]])` Use this function inside `parameters` to send file when specified.
+`bot:file(filepath[, filename[, mime_type]])` Use this function inside `parameters` to send file when required.
