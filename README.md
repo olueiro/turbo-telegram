@@ -44,14 +44,14 @@ Send any message to your bot and wait a reply from it.
 Features
 --------
 
-* Fast
-* Easy to implement
-* Fast
-* Supports inline buttons
-* Fast
-* Supports webhooks
-* Fast
-* Uses LuaJIT (thanks to Turbo)
-* Fast
-* Debug-friendly
+* Fast;
+* Easy to implement;
+* Fast;
+* Supports inline commands;
+* Fast;
+* Supports webhooks;
+* Fast;
+* Uses LuaJIT (thanks to Turbo);
+* Fast;
+* Debug-friendly;
 * Fast...
