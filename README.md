@@ -35,6 +35,12 @@ end)
 turbo.ioloop.instance():start()
 ```
 
+_Do you not have created a bot? [Click here](http://telegram.me/botfather?start=/newbot)_
+
+Send any message to your bot and wait a reply from it.
+
+
+
 Features
 --------
 
