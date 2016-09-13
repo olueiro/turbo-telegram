@@ -192,7 +192,7 @@ function TG:initialize(token, options)
     }
   }
 
-  turbo.util.tablemerge(self.options, options)
+  turbo.util.tablemerge(self.options, options or {})
 
   if not string.find(self.options.webhooks.url, "^^/.-$$") then
     self.options.webhooks.url = "^/" .. self.options.webhooks.url .. "$"
