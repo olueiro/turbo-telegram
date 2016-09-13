@@ -20,6 +20,7 @@ Hello-World.lua
 -----------
 
 ```lua
+_G.TURBO_SSL = true
 local turbo = require("turbo")
 local telegram = require("turbo-telegram")
 
