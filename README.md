@@ -28,7 +28,7 @@ local my_bot = telegram("YOUR-TOKEN-HERE")
 
 my_bot:hear("text", function(data)
   my_bot:say("sendMessage", {
-    chat_id = data.chat.id,
+    chat_id = data.message.chat.id,
     text = "Hello World!"
   })
 end)
