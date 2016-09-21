@@ -58,7 +58,7 @@ Features
 Methods
 -------
 
-`bot:hear(conditions, action)` Create an event to trigger if `conditions` (see below) matches and execute `action` passing the update as first argument, return `true` in function to kill this update.
+`bot:hear(conditions, action)` Create an event to trigger if `conditions` ([Examples](https://github.com/olueiro/huntable#sample)) matches and execute `action` passing the update as first argument, return `true` in function to kill this update.
 
 `bot:say(command, parameters[, callback])` Send a message or media to bot. Check [Available methods](https://core.telegram.org/bots/api#available-methods) to view all supported `command`s and yours `parameters`. Pass a function or a table (with success or failure keys) to `callback`, the result will pass as first argument.
 
